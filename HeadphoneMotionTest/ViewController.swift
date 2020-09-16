@@ -14,7 +14,7 @@ import CoreMotion
 class ViewController: UIViewController, CMHeadphoneMotionManagerDelegate {
     
     let motionManager = CMHeadphoneMotionManager()
-    
+    let a = headphoe
     override func viewDidLoad() {
         super.viewDidLoad()
                 
