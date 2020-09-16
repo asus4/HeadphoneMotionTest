@@ -17,9 +17,7 @@ class ViewController: UIViewController, CMHeadphoneMotionManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("hogehoge")
-        
+                
         motionManager.delegate = self
         
         print("is active", motionManager.isDeviceMotionActive)
@@ -30,7 +28,9 @@ class ViewController: UIViewController, CMHeadphoneMotionManagerDelegate {
                 print("error \(error)")
                 print("motion \(motion)")
             }
+            print("started!")
         }
+        
     }
     
     deinit {
