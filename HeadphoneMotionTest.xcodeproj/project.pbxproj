@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7898B33E2511A7CF002722CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898B33D2511A7CF002722CF /* AppDelegate.swift */; };
-		7898B3402511A7CF002722CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898B33F2511A7CF002722CF /* ViewController.swift */; };
-		7898B3422511A7D0002722CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7898B3412511A7D0002722CF /* Assets.xcassets */; };
-		7898B3452511A7D0002722CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7898B3432511A7D0002722CF /* Main.storyboard */; };
 		78E41C1024E2D8FE00B4EA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E41C0F24E2D8FE00B4EA8F /* AppDelegate.swift */; };
 		78E41C1224E2D8FE00B4EA8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E41C1124E2D8FE00B4EA8F /* SceneDelegate.swift */; };
 		78E41C1424E2D8FE00B4EA8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E41C1324E2D8FE00B4EA8F /* ViewController.swift */; };
@@ -20,13 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7898B33B2511A7CF002722CF /* HeadphoneMotionTestMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadphoneMotionTestMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7898B33D2511A7CF002722CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7898B33F2511A7CF002722CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7898B3412511A7D0002722CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7898B3442511A7D0002722CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7898B3462511A7D0002722CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7898B3472511A7D0002722CF /* HeadphoneMotionTestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeadphoneMotionTestMac.entitlements; sourceTree = "<group>"; };
 		78E41C0C24E2D8FE00B4EA8F /* HeadphoneMotionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadphoneMotionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E41C0F24E2D8FE00B4EA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78E41C1124E2D8FE00B4EA8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,13 +27,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7898B3382511A7CF002722CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		78E41C0924E2D8FE00B4EA8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,24 +37,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7898B33C2511A7CF002722CF /* HeadphoneMotionTestMac */ = {
-			isa = PBXGroup;
-			children = (
-				7898B33D2511A7CF002722CF /* AppDelegate.swift */,
-				7898B33F2511A7CF002722CF /* ViewController.swift */,
-				7898B3412511A7D0002722CF /* Assets.xcassets */,
-				7898B3432511A7D0002722CF /* Main.storyboard */,
-				7898B3462511A7D0002722CF /* Info.plist */,
-				7898B3472511A7D0002722CF /* HeadphoneMotionTestMac.entitlements */,
-			);
-			path = HeadphoneMotionTestMac;
-			sourceTree = "<group>";
-		};
 		78E41C0324E2D8FE00B4EA8F = {
 			isa = PBXGroup;
 			children = (
 				78E41C0E24E2D8FE00B4EA8F /* HeadphoneMotionTest */,
-				7898B33C2511A7CF002722CF /* HeadphoneMotionTestMac */,
 				78E41C0D24E2D8FE00B4EA8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				78E41C0C24E2D8FE00B4EA8F /* HeadphoneMotionTest.app */,
-				7898B33B2511A7CF002722CF /* HeadphoneMotionTestMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,23 +70,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7898B33A2511A7CF002722CF /* HeadphoneMotionTestMac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7898B34A2511A7D0002722CF /* Build configuration list for PBXNativeTarget "HeadphoneMotionTestMac" */;
-			buildPhases = (
-				7898B3372511A7CF002722CF /* Sources */,
-				7898B3382511A7CF002722CF /* Frameworks */,
-				7898B3392511A7CF002722CF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HeadphoneMotionTestMac;
-			productName = HeadphoneMotionTestMac;
-			productReference = 7898B33B2511A7CF002722CF /* HeadphoneMotionTestMac.app */;
-			productType = "com.apple.product-type.application";
-		};
 		78E41C0B24E2D8FE00B4EA8F /* HeadphoneMotionTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78E41C2024E2D90000B4EA8F /* Build configuration list for PBXNativeTarget "HeadphoneMotionTest" */;
@@ -146,9 +96,6 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					7898B33A2511A7CF002722CF = {
-						CreatedOnToolsVersion = 12.0;
-					};
 					78E41C0B24E2D8FE00B4EA8F = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -168,21 +115,11 @@
 			projectRoot = "";
 			targets = (
 				78E41C0B24E2D8FE00B4EA8F /* HeadphoneMotionTest */,
-				7898B33A2511A7CF002722CF /* HeadphoneMotionTestMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7898B3392511A7CF002722CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7898B3422511A7D0002722CF /* Assets.xcassets in Resources */,
-				7898B3452511A7D0002722CF /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		78E41C0A24E2D8FE00B4EA8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,15 +133,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7898B3372511A7CF002722CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7898B3402511A7CF002722CF /* ViewController.swift in Sources */,
-				7898B33E2511A7CF002722CF /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		78E41C0824E2D8FE00B4EA8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7898B3432511A7D0002722CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7898B3442511A7D0002722CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78E41C1524E2D8FE00B4EA8F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -245,52 +165,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7898B3482511A7D0002722CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HeadphoneMotionTestMac/HeadphoneMotionTestMac.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = BRX36FQ745;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = HeadphoneMotionTestMac/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.asus4.HeadphoneMotionTestMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		7898B3492511A7D0002722CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HeadphoneMotionTestMac/HeadphoneMotionTestMac.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = BRX36FQ745;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = HeadphoneMotionTestMac/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.asus4.HeadphoneMotionTestMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		78E41C1E24E2D90000B4EA8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -448,15 +322,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7898B34A2511A7D0002722CF /* Build configuration list for PBXNativeTarget "HeadphoneMotionTestMac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7898B3482511A7D0002722CF /* Debug */,
-				7898B3492511A7D0002722CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		78E41C0724E2D8FE00B4EA8F /* Build configuration list for PBXProject "HeadphoneMotionTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

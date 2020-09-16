@@ -25,8 +25,12 @@ class ViewController: UIViewController, CMHeadphoneMotionManagerDelegate {
         
         if motionManager.isDeviceMotionAvailable {
             motionManager.startDeviceMotionUpdates(to: .main)  { (motion: CMDeviceMotion?, error: Error?) in
-                print("error \(error)")
-                print("motion \(motion)")
+                if let _error = error {
+                    print("error \(_error)")
+                }
+                if let _motion = motion {
+                    print("motion \(_motion)")
+                }
             }
             print("started!")
         }
